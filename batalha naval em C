@@ -498,7 +498,7 @@ int main()
         ImprimeDuasMatrizes(mapaDeInterFaceRobo,mapaDeInterFacePlayer);
 
         AtiraNaMatrizRobo(mapaDeInterFacePlayer,mapaDeAcertosDoRobo);
-        AtiraNaMatrizPlayer(mapaDeInterFaceRobo,mapaDeContrasteRobo);
+        AtiraNaMatrizPlayer(mapaDeInterFaceRobo,mapaDeContrasteRobo); // PARA OBSERVA ATUAÇAO RAPIDA DA MAQUINA COMENTE TODA ESSA LINHA
 
 
         LimpaTela();

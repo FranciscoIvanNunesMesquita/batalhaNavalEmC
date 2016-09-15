@@ -1,6 +1,6 @@
-/*CRIADO E DESENVOLVIDO POR FRANCISCO IVAN NUNES MESQUITA 15/09/2016
+/*CRIADO POR FRANCISCO IVAN NUNES MESQUITA 15/09/2016
   COPIE E COLE NO CODE BLOCKS*/
-
+  
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -14,6 +14,46 @@
 void LimpaTela()
 {
     system("cls");
+}
+void ImprimeVitoria()
+{
+    printf(" _     _   _   _____   _____   _____    _       ___  \n| |   / / | | |_   _| /  _  \\ |  _  \\  | |     /   | \n| |  / /  | |   | |   | | | | | |_| |  | |    / /| | \n| | / /   | |   | |   | | | | |  _  /  | |   / / | | \n| |/ /    | |   | |   | |_| | | | \\ \\  | |  / /  | | \n|___/     |_|   |_|   \\_____/ |_|  \\_\\ |_| /_/   |_| \n");
+}
+
+void TocaMusica()
+        {
+        Beep(293,250);
+        Beep(293,250);
+        Beep(220,250);
+        Beep(220,250);
+        Beep(293,250);
+        Beep(293,250);
+        Beep(330,250);
+        Beep(330,250);
+        Beep(349,250);
+        Beep(349,250);
+        Beep(330,250);
+        Beep(330,250);
+        Beep(293,250);
+        Beep(293,250);
+        Beep(330,250);
+        Beep(293,250);
+        Beep(262,250);
+        Beep(262,250);
+        Beep(196,250);
+        Beep(196,250);
+        Beep(262,250);
+        Beep(262,250);
+        Beep(293,250);
+        Beep(293,250);
+        Beep(330,250);
+        Beep(330,250);
+        Beep(293,250);
+        Beep(293,250);
+        Beep(262,250);
+        Beep(262,250);
+        Beep(330,250);
+        Beep(262,250);
 }
 
 void Carregamento()
@@ -37,7 +77,7 @@ void Carregamento()
     printf(" _____       ___   _____       ___   _       _   _       ___\n|  _  \\     /   | |_   _|     /   | | |     | | | |     /   |\n| |_| |    / /| |   | |      / /| | | |     | |_| |    / /| |\n|  _  {   / / | |   | |     / / | | | |     |  _  |   / / | |\n| |_| |  / /  | |   | |    / /  | | | |___  | | | |  / /  | |\n|_____/ /_/   |_|   |_|   /_/   |_| |_____| |_| |_| /_/   |_|\n");
 
     printf(" __   _       ___   _     _       ___   _\n|  \\ | |     /   | | |   / /     /   | | |\n|   \\| |    / /| | | |  / /     / /| | | |\n| |\\   |   / / | | | | / /     / / | | | |\n| | \\  |  / /  | | | |/ /     / /  | | | |___\n|_|  \\_| /_/   |_| |___/     /_/   |_| |_____|\n");
-    Sleep(3000);
+    TocaMusica();
 
     LimpaTela();
 
@@ -466,7 +506,7 @@ int main()
         if(ChecaMatriz(mapaDeInterFaceRobo,mapaDeContrasteRobo))
         {
             LimpaTela();
-            printf("Vitoria!!!");
+            ImprimeVitoria();
             exit(0);
         }
     }

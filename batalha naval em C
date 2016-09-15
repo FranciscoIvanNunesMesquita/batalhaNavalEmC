@@ -548,17 +548,4 @@ Valor Correspondente = Cor
 
 7 = White ---------- F = Bright White
 
-
-//abre o arquivo
-  arquivo = fopen("dados.csv", "w");
-  // testa se conseguiu abrir o aquivo
-  if(arquivo == NULL)
-  {
-      printf("nao foi possivel abrir ");
-      exit(EXIT_FAILURE);
-  }
-  // escreve dentro do arquivo
-  fprintf(arquivo,"ola mundo!");
-      //fecha o arquivo
-  fclose(arquivo);
-  exit(EXIT_SUCCESS);*/
+*/

@@ -507,7 +507,7 @@ int main()
         {
             LimpaTela();
             ImprimeVitoria();
-            exit(0);
+            i=N_Municao;
         }
     }
 
